@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
-    
+
 </head>
 <body>
 
@@ -72,7 +72,7 @@
                                     </ul>
                                 </li>
 
-                                <li class="dropdown"><a href="#">About</a>
+                                <li class="current dropdown"><a href="#">About</a>
                                     <ul>
                                         <li><a href="about.html">About us</a></li>
                                         <li><a href="team.html">Team</a></li>
@@ -103,7 +103,7 @@
                                     </ul>
                                 </li>
 
-                                <li class="current"><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
 
                             <ul class="mobile-menu clearfix">
@@ -170,11 +170,10 @@
     </section>
 
 
-     
     <div class="inner-banner has-base-color-overlay text-center" style="background: url(images/background/1.jpg);">
         <div class="container">
             <div class="box">
-                <h3>contact us</h3>
+                <h3>our Experts</h3>
             </div><!-- /.box -->
         </div><!-- /.container -->
     </div>
@@ -185,9 +184,12 @@
                 <ul class="list-inline link-list">
                     <li>
                         <a href="index.html">Home</a>
-                    </li><!-- comment for inline hack
-                    --><li>
-                        contact us
+                    </li>
+                    <li>
+                        <a href="about.html">about us</a>
+                    </li>
+                    <li>
+                        team
                     </li>
                 </ul><!-- /.list-line -->
             </div><!-- /.pull-left -->
@@ -197,121 +199,179 @@
         </div><!-- /.container -->
     </div>
 
-
-
-    <section class="contact_us">
+    
+    <!--team-section-->
+    <section class="team-section padd-1">
         <div class="container">
+
             <div class="row">
-                
-                <div class="col-md-8 col-sm-12 col-xs-12">
-                    <div class="sec-title">
-                        <h2>Contact Us</h2>
-                    </div>
-                    <div class="default-form-area">
-                        <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post">
-                            <div class="row clearfix">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    
-                                    <div class="form-group">
-                                        <input type="text" name="form_name" class="form-control" value="" placeholder="Your Name *" required="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-group">
-                                        <input type="email" name="form_email" class="form-control required email" value="" placeholder="Your Mail *" required="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-group">
-                                        <input type="text" name="form_phone" class="form-control" value="" placeholder="Phone">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-group">
-                                        <input type="text" name="form_subject" class="form-control" value="" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <textarea name="form_message" class="form-control textarea required" placeholder="Your Message...."></textarea>
-                                    </div>
-                                </div>   
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                        <button class="btn-style-one" type="submit" data-loading-text="Please wait...">send message</button>
-                                    </div>
-                                </div>   
 
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <div class="image-holder">
+                            <figure>
+                                <img src="images/team/1.jpg" alt="awesome-image">
+                            </figure>
+                        </div>
 
-                <div class="col-md-4 col-sm-8 col-xs-12">
-                    <div class="sec-title">
-                        <h2>Get in Touch</h2>
-                    </div>
-                    <div class="text">
-                        <p>Lorem ipsum dolor sit amet, vix an natum labitur eleifend, mel amet a laorit menandri.</p>
-                    </div>
-                    <br>
-                    <div class="default-cinfo">
-         
-                        <div class="acc-content collapsed">
-                            <ul class="contact-infos">
-                                <li>
-                                    <div class="icon_box">
-                                        <i class="fa fa-map-marker"></i>
-                                    </div><!-- /.icon-box -->
-                                    <div class="text-box">
-                                        <p><b>Address:</b> <br> 121 Rain St, Melbourne 3000, Australia.</p>
-                                    </div><!-- /.text-box -->
-                                </li>
-                                <li>
-                                    <div class="icon_box">
-                                        <i class="fa fa-phone"></i>
-                                    </div><!-- /.icon-box -->
-                                    <div class="text-box">
-                                        <p><b>Call Us:</b> <br> +222 4444 88 999</p>
-                                    </div><!-- /.text-box -->
-                                </li>
-                                <li>
-                                    <div class="icon_box">
-                                        <i class="fa fa-envelope"></i>
-                                    </div><!-- /.icon-box -->
-                                    <div class="text-box">
-                                        <p><b>Mail Us:</b> <br> Yourmail@info.com</p>
-                                    </div>
-                                </li>
+                        <div class="team-content">
+                            <h6>Robert Biswash</h6>
+                            <p>Founder / CEO</p>
+                            <ul class="social-style-two">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
-      
-                    </div>  
+                    </div>
                 </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <div class="image-holder">
+                            <figure>
+                                <img src="images/team/2.jpg" alt="awesome-image">
+                            </figure>
+                        </div>
+
+                        <div class="team-content">
+                            <h6>Steven Dambu</h6>
+                            <p>Founder / CEO</p>
+                            <ul class="social-style-two">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <div class="image-holder">
+                            <figure>
+                                <img src="images/team/3.jpg" alt="awesome-image">
+                            </figure>
+                        </div>
+
+                        <div class="team-content">
+                            <h6>Albert Mozina</h6>
+                            <p>Founder / CEO</p>
+                            <ul class="social-style-two">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <div class="image-holder">
+                            <figure>
+                                <img src="images/team/4.jpg" alt="awesome-image">
+                            </figure>
+                        </div>
+
+                        <div class="team-content">
+                            <h6>Sanzida Akon</h6>
+                            <p>Founder / CEO</p>
+                            <ul class="social-style-two">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <div class="image-holder">
+                            <figure>
+                                <img src="images/team/5.jpg" alt="awesome-image">
+                            </figure>
+                        </div>
+
+                        <div class="team-content">
+                            <h6>Juthi Burnikat</h6>
+                            <p>Founder / CEO</p>
+                            <ul class="social-style-two">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <div class="image-holder">
+                            <figure>
+                                <img src="images/team/6.jpg" alt="awesome-image">
+                            </figure>
+                        </div>
+
+                        <div class="team-content">
+                            <h6>Denial Hafi</h6>
+                            <p>Founder / CEO</p>
+                            <ul class="social-style-two">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <div class="image-holder">
+                            <figure>
+                                <img src="images/team/7.jpg" alt="awesome-image">
+                            </figure>
+                        </div>
+
+                        <div class="team-content">
+                            <h6>Salman Kida</h6>
+                            <p>Founder / CEO</p>
+                            <ul class="social-style-two">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <div class="image-holder">
+                            <figure>
+                                <img src="images/team/8.jpg" alt="awesome-image">
+                            </figure>
+                        </div>
+
+                        <div class="team-content">
+                            <h6>John Doe</h6>
+                            <p>Founder / CEO</p>
+                            <ul class="social-style-two">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
-
-        <!--Map Section-->
-        <div class="map-section">
-            <div class="map-outer">
-                <!--Map Canvas-->
-                <div class="map-canvas"
-                    data-zoom="15"
-                    data-lat="45.438412"
-                    data-lng="10.993389"
-                    data-icon-path="images/resource/map-marker.png"             
-                    data-type="roadmap"
-                    data-hue="#ffc400"
-                    data-title="Envato"
-                    data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>"                          
-                    style="height: 400px;">
-                </div>
-
-            </div>
-        </div>
-        <!--End Map Section-->
+    <!--End team-section-->
 
     <footer class="main-footer">
         
@@ -508,8 +568,7 @@
 	<script src="js/jquery.polyglot.language.switcher.js"></script>
 	<script src="js/nouislider.js"></script>
 	<script src="js/jquery.bootstrap-touchspin.js"></script>
-    <script src="js/SmoothScroll.js"></script>
-	<script src="js/validation.js"></script>
+	<script src="js/SmoothScroll.js"></script>
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/jquery.countTo.js"></script>
 	<script src="js/jquery.flexslider.js"></script>

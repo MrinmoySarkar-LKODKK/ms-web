@@ -15,11 +15,14 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
-    
+
+ 
+
 </head>
 <body>
 
 <div class="boxed_wrapper">
+
 
     <header class="top-bar">
         <div class="container">
@@ -88,7 +91,7 @@
                                     </ul>
                                 </li>
 
-                                <li class="dropdown"><a href="#">services</a>
+                                <li class="current dropdown"><a href="#">services</a>
                                     <ul>
                                         <li><a href="service.html">Services</a></li>
                                         <li><a href="service-single.html">Service Details</a></li>
@@ -98,12 +101,12 @@
                                 <li class="dropdown"><a href="#">News</a>
                                     <ul>
                                         <li><a href="blog-grid.html">News Grid</a></li>
-                                        <li><a href="blog-large.html">News Classic</a></li>
-                                        <li><a href="blog-details.html">News Details</a></li>
+                                    <li><a href="blog-large.html">News Classic</a></li>
+                                    <li><a href="blog-details.html">News Details</a></li>
                                     </ul>
                                 </li>
 
-                                <li class="current"><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
 
                             <ul class="mobile-menu clearfix">
@@ -144,8 +147,8 @@
                                 <li class="dropdown"><a href="#">News</a>
                                     <ul>
                                         <li><a href="blog-grid.html">News Grid</a></li>
-                                        <li><a href="blog-large.html">News Classic</a></li>
-                                        <li><a href="blog-details.html">News Details</a></li>
+                                    <li><a href="blog-large.html">News Classic</a></li>
+                                    <li><a href="blog-details.html">News Details</a></li>
                                     </ul>
                                 </li>
                                 
@@ -164,17 +167,15 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
 
-     
     <div class="inner-banner has-base-color-overlay text-center" style="background: url(images/background/1.jpg);">
         <div class="container">
             <div class="box">
-                <h3>contact us</h3>
+                <h3>Our Services</h3>
             </div><!-- /.box -->
         </div><!-- /.container -->
     </div>
@@ -185,9 +186,9 @@
                 <ul class="list-inline link-list">
                     <li>
                         <a href="index.html">Home</a>
-                    </li><!-- comment for inline hack
-                    --><li>
-                        contact us
+                    </li>
+                    <li>
+                        service
                     </li>
                 </ul><!-- /.list-line -->
             </div><!-- /.pull-left -->
@@ -198,120 +199,220 @@
     </div>
 
 
-
-    <section class="contact_us">
+    <!--Services Section-->
+    <section class="services-section style-2">
         <div class="container">
-            <div class="row">
+            <div class="outer-box">
+                <div class="row clearfix">
                 
-                <div class="col-md-8 col-sm-12 col-xs-12">
-                    <div class="sec-title">
-                        <h2>Contact Us</h2>
-                    </div>
-                    <div class="default-form-area">
-                        <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post">
-                            <div class="row clearfix">
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    
-                                    <div class="form-group">
-                                        <input type="text" name="form_name" class="form-control" value="" placeholder="Your Name *" required="">
-                                    </div>
+                    <!--Left Column-->
+                    <div class="left-column col-md-4 col-sm-6 col-xs-12 pull-left">
+                        <!--Service Block One-->
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon">
+                                    <span class="flaticon-graphic-2"></span>
                                 </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-group">
-                                        <input type="email" name="form_email" class="form-control required email" value="" placeholder="Your Mail *" required="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-group">
-                                        <input type="text" name="form_phone" class="form-control" value="" placeholder="Phone">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-group">
-                                        <input type="text" name="form_subject" class="form-control" value="" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <textarea name="form_message" class="form-control textarea required" placeholder="Your Message...."></textarea>
-                                    </div>
-                                </div>   
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                        <button class="btn-style-one" type="submit" data-loading-text="Please wait...">send message</button>
-                                    </div>
-                                </div>   
-
+                                <h3><a href="service-single.html">Financial Process</a></h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor</div>
                             </div>
-                        </form>
+                        </div>
+                        
+                        <!--Service Block One-->
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon">
+                                    <span class="flaticon-layers"></span>
+                                </div>
+                                <h3><a href="service-single.html">Market Strategy</a></h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor</div>
+                            </div>
+                        </div>
+                        
+                        <!--Service Block One-->
+                        <div class="service-block-one">
+                            <div class="inner-box">
+                                <div class="icon">
+                                    <span class="flaticon-rocket-ship"></span>
+                                </div>
+                                <h3><a href="service-single.html">Fast Work Process</a></h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Right Column-->
+                    <div class="right-column col-md-4 col-sm-6 col-xs-12 pull-right">
+                        <!--Service Block Two-->
+                        <div class="service-block-two">
+                            <div class="inner-box">
+                                <div class="icon">
+                                    <span class="flaticon-business"></span>
+                                </div>
+                                <h3><a href="service-single.html">Management</a></h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor</div>
+                            </div>
+                        </div>
+                        
+                        <!--Service Block Two-->
+                        <div class="service-block-two">
+                            <div class="inner-box">
+                                <div class="icon">
+                                    <span class="flaticon-note"></span>
+                                </div>
+                                <h3><a href="service-single.html">Insurance Policies</a></h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor</div>
+                            </div>
+                        </div>
+                        
+                        <!--Service Block Two-->
+                        <div class="service-block-two">
+                            <div class="inner-box">
+                                <div class="icon">
+                                    <span class="flaticon-people"></span>
+                                </div>
+                                <h3><a href="service-single.html">Consulting</a></h3>
+                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmod tempor</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Image Column-->
+                    <div class="image-column col-md-4 col-sm-12 col-xs-12">
+                        <figure class="image-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <img src="images/service/1.png" alt="" />
+                        </figure>
                     </div>
                 </div>
+            </div>   
+        </div>
+    </section>
+    <!--End Services Section--> 
 
-                <div class="col-md-4 col-sm-8 col-xs-12">
-                    <div class="sec-title">
-                        <h2>Get in Touch</h2>
-                    </div>
-                    <div class="text">
-                        <p>Lorem ipsum dolor sit amet, vix an natum labitur eleifend, mel amet a laorit menandri.</p>
-                    </div>
-                    <br>
-                    <div class="default-cinfo">
-         
-                        <div class="acc-content collapsed">
-                            <ul class="contact-infos">
-                                <li>
-                                    <div class="icon_box">
-                                        <i class="fa fa-map-marker"></i>
-                                    </div><!-- /.icon-box -->
-                                    <div class="text-box">
-                                        <p><b>Address:</b> <br> 121 Rain St, Melbourne 3000, Australia.</p>
-                                    </div><!-- /.text-box -->
-                                </li>
-                                <li>
-                                    <div class="icon_box">
-                                        <i class="fa fa-phone"></i>
-                                    </div><!-- /.icon-box -->
-                                    <div class="text-box">
-                                        <p><b>Call Us:</b> <br> +222 4444 88 999</p>
-                                    </div><!-- /.text-box -->
-                                </li>
-                                <li>
-                                    <div class="icon_box">
-                                        <i class="fa fa-envelope"></i>
-                                    </div><!-- /.icon-box -->
-                                    <div class="text-box">
-                                        <p><b>Mail Us:</b> <br> Yourmail@info.com</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-      
-                    </div>  
+    <!--Purchase Box-->
+    <section class="purchase-section" style="background-image:url(images/background/5.jpg);">
+        <div class="container">
+            <div class="row clearfix">
+                <div class="column col-md-8 col-sm-12 col-xs-12">
+                    <h2>We Are The Best Consulting Company Ever!!</h2>
+                </div>
+                <div class="btn-column col-md-4 col-sm-12 col-xs-12">
+                    <a href="#" class="btn-style-seven">Purchase Now</a>
                 </div>
             </div>
         </div>
     </section>
+    <!--End Purchase Box--> 
 
-        <!--Map Section-->
-        <div class="map-section">
-            <div class="map-outer">
-                <!--Map Canvas-->
-                <div class="map-canvas"
-                    data-zoom="15"
-                    data-lat="45.438412"
-                    data-lng="10.993389"
-                    data-icon-path="images/resource/map-marker.png"             
-                    data-type="roadmap"
-                    data-hue="#ffc400"
-                    data-title="Envato"
-                    data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>"                          
-                    style="height: 400px;">
+  <!--Services Style One-->
+    <section class="services-style-one padd-1 bg-2">
+        <div class="container">
+            
+            <div class="row clearfix">
+
+                <!--Service Block-->
+                <div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="service-block wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/service/service-1.jpg" alt="" />
+                                <div class="caption">Business Consulting</div>
+                                <div class="overlay-box">
+                                    <h3>Business Consulting</h3>
+                                    <div class="text">These men in promptly escaped from that  a maximum security stockade.</div>
+                                    <a class="btn-style-three" href="service-single.html">Read More <span class="fa fa-angle-double-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Service Block-->
+                <div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="service-block wow fadeIn" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/service/service-2.jpg" alt="" />
+                                <div class="caption">Customer Insights</div>
+                                <div class="overlay-box">
+                                    <h3>Customer Insights</h3>
+                                    <div class="text">These men in promptly escaped from that  a maximum security stockade.</div>
+                                    <a class="btn-style-three" href="service-single.html">Read More <span class="fa fa-angle-double-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Service Block-->
+                <div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="service-block wow fadeIn" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/service/service-3.jpg" alt="" />
+                                <div class="caption">Advanced Analytics</div>
+                                <div class="overlay-box">
+                                    <h3>Advanced Analytics</h3>
+                                    <div class="text">These men in promptly escaped from that  a maximum security stockade.</div>
+                                    <a class="btn-style-three" href="service-single.html">Read More <span class="fa fa-angle-double-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Service Block-->
+                <div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="service-block wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/service/service-4.jpg" alt="" />
+                                <div class="caption">Business Planning</div>
+                                <div class="overlay-box">
+                                    <h3>Business Planning</h3>
+                                    <div class="text">These men in promptly escaped from that  a maximum security stockade.</div>
+                                    <a class="btn-style-three" href="service-single.html">Read More <span class="fa fa-angle-double-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Service Block-->
+                <div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="service-block wow fadeIn" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/service/service-5.jpg" alt="" />
+                                <div class="caption">Lawyer Consulting</div>
+                                <div class="overlay-box">
+                                    <h3>Lawyer Consulting</h3>
+                                    <div class="text">These men in promptly escaped from that  a maximum security stockade.</div>
+                                    <a class="btn-style-three" href="service-single.html">Read More <span class="fa fa-angle-double-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Service Block-->
+                <div class="column col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="service-block wow fadeIn" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="images/service/service-6.jpg" alt="" />
+                                <div class="caption">Risk Management</div>
+                                <div class="overlay-box">
+                                    <h3>Risk Management</h3>
+                                    <div class="text">These men in promptly escaped from that  a maximum security stockade.</div>
+                                    <a class="btn-style-three" href="service-single.html">Read More <span class="fa fa-angle-double-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
-        <!--End Map Section-->
+    </section>
+
+
 
     <footer class="main-footer">
         
@@ -464,60 +565,59 @@
 
 
     <!-- Scroll Top Button -->
-	<button class="scroll-top tran3s color2_bg">
-		<span class="fa fa-angle-up"></span>
-	</button>
-	<!-- pre loader  -->
-	<div class="preloader"></div>
+    <button class="scroll-top tran3s color2_bg">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <!-- pre loader  -->
+    <div class="preloader"></div>
 
 
-	<!-- jQuery js -->
-	<script src="js/jquery.js"></script>
-	<!-- bootstrap js -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- jQuery ui js -->
-	<script src="js/jquery-ui.js"></script>
-	<!-- owl carousel js -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- jQuery validation -->
-	<script src="js/jquery.validate.min.js"></script>
-	<!-- google map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRvBPo3-t31YFk588DpMYS6EqKf-oGBSI"></script> 
-	<script src="js/gmap.js"></script>
-	<!-- mixit up -->
-	<script src="js/wow.js"></script>
-	<script src="js/jquery.mixitup.min.js"></script>
-	<script src="js/jquery.fitvids.js"></script>
+    <!-- jQuery js -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery ui js -->
+    <script src="js/jquery-ui.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- jQuery validation -->
+    <script src="js/jquery.validate.min.js"></script>
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRvBPo3-t31YFk588DpMYS6EqKf-oGBSI"></script> 
+    <script src="js/gmap.js"></script>
+    <!-- mixit up -->
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
     <script src="js/bootstrap-select.min.js"></script>
 
-	<!-- revolution slider js -->
-	<script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
-	<script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- revolution slider js -->
+    <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
 
-	<!-- fancy box -->
-	<script src="js/jquery.fancybox.pack.js"></script>
-	<script src="js/jquery.polyglot.language.switcher.js"></script>
-	<script src="js/nouislider.js"></script>
-	<script src="js/jquery.bootstrap-touchspin.js"></script>
+    <!-- fancy box -->
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.polyglot.language.switcher.js"></script>
+    <script src="js/nouislider.js"></script>
+    <script src="js/jquery.bootstrap-touchspin.js"></script>
     <script src="js/SmoothScroll.js"></script>
-	<script src="js/validation.js"></script>
-	<script src="js/jquery.appear.js"></script>
-	<script src="js/jquery.countTo.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
-	<script src="js/imagezoom.js"></script>	
-	<script id="map-script" src="js/default-map.js"></script>
-	<script src="js/custom.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/imagezoom.js"></script> 
+    <script id="map-script" src="js/default-map.js"></script>
+    <script src="js/custom.js"></script>
 
 </div>
-	
+    
 </body>
 </html>
